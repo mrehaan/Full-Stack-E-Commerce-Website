@@ -1,0 +1,27 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<div class="row">
+
+    <div class=col-lg-10>
+        <div class="box-element product">
+
+         <h3><strong>About the Website</strong></h3>
+            <br>
+            This a mockup ecommerce website which is intended to provide the users a place to buy clothes online.
+            This website provides the user with functionalities such as adding a particular item to the cart and
+            features a checkout page allowing the user to buy the items in the cart. To get started click the Store button
+            at the top.
+
+        </div>
+
+        <br>
+        <br>
+
+        <img src="{% static 'images/logo.png' %}" width=925 height=500>
+
+    </div>
+
+
+</div>
+{% endblock content %}
